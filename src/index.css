@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.prescription-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(67, 102, 118, 0.148353);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(106, 105, 228, 0.03);
+  border-radius: 7px;
 }
